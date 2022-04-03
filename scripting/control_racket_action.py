@@ -1,4 +1,3 @@
-from tkinter import LEFT, RIGHT
 from constants import *
 from game.scripting.action import Action
 
