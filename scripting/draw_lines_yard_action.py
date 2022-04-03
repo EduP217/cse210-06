@@ -1,4 +1,3 @@
-from turtle import position
 from constants import *
 from game.scripting.action import Action
 
@@ -14,9 +13,9 @@ class DrawLinesYardAction(Action):
 
             if line.is_debug():
                 rectangle = body.get_rectangle()
-                self._video_service.draw_rectangle()
+                self._video_service.draw_rectangle(rectangle, PURPLE)
 
-            image = lines_yard.get_image()
+            image = line.get_image()
             position = body.get_position()
             self._video_service.draw_image(image, position)
 

@@ -1,7 +1,6 @@
-from email.mime import audio
 from game.scripting.action import Action
 
-class UnloadAssetssAction(Action):
+class UnloadAssetsAction(Action):
 
     def __init__(self, audio_service, video_service):
         self._audio_service = audio_service

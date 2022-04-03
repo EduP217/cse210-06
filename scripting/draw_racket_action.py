@@ -1,6 +1,3 @@
-from curses.textpad import rectangle
-from email.mime import image
-from turtle import position
 from constants import *
 from game.scripting.action import Action
 
